@@ -18,7 +18,7 @@
             <Setter Property="Margin" Value="8" />
         </Style>
     </Window.Resources>
-    <Grid Margin="0,0,106,46">
+    <Grid Margin="0,0,10,46">
         <Grid.RowDefinitions>
             <RowDefinition Height="51*" />
             <RowDefinition Height="48*" />
@@ -27,7 +27,7 @@
             <RowDefinition Height="55*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="135" />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
         <TextBlock Text="Имя" Margin="8,8,8,8" />

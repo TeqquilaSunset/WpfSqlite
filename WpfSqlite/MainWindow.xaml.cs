@@ -35,6 +35,7 @@ namespace WpfSqlite
         // при загрузке окна
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
+
             // гарантируем, что база данных создана
             db.Database.EnsureCreated();
             // загружаем данные из БД
