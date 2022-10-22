@@ -8,9 +8,9 @@ namespace WpfSqlite
 {
     internal class Product
     {
-        public long Id { get; set; }
+        public int Id { get; set; }
         public string? Name { get; set; }
-        public long? Quantity { get; set; }
+        public int? Quantity { get; set; }
 
         public Storage? Storage { get; set; }
     }

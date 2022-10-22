@@ -9,7 +9,7 @@ namespace WpfSqlite
 {
     internal class Sale
     {
-        public long Id { get; set; }
+        public int Id { get; set; }
         public string? Date { get; set; }
 
         public  Client? Client { get; set;} 

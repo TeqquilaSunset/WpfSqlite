@@ -9,8 +9,8 @@ namespace WpfSqlite
 {
     internal class Storage
     {
-        public long Id { get; set; }
+        public int Id { get; set; }
         public string? Adress { get; set; }
-        public long? Area { get; set; }
+        public double Area { get; set; }
     }
 }
